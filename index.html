@@ -1,12 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>RED FALCONS FC | チーム紹介</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            color: #333;
+            background: #fff;
+        }
+        /* ヘッダー：チーム名とメインビジュアル */
+        header {
+            background-color: #d32f2f; /* チームカラーの赤 */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero-title { font-size: 2.5rem; margin: 0; }
+        .hero-sub { font-size: 1rem; opacity: 0.9; }
+
+        /* メインコンテンツ */
+        .content {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h2 {
+            border-bottom: 3px solid #d32f2f;
+            padding-bottom: 10px;
+            color: #d32f2f;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+        }
+        .info-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        /* フッター */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Pages Site</h1>
-    <p>This is my first GitHub Pages deployment!</p>
+
+    <header>
+        <h1 class="hero-title">RED FALCONS FC</h1>
+        <p class="hero-sub">誇りを胸に、さらなる高みへ。</p>
+    </header>
+
+    <div class="content">
+        <section>
+            <h2>TEAM PROFILE</h2>
+            <p>1990年創立。地域に根ざした活動を続け、現在は国内リーグ1部に所属。攻撃的なサッカーで観客を魅了します。</p>
+            
+            <ul class="info-list">
+                <li><strong>ホーム</strong> <span>東京 / ファルコン・スタジアム</span></li>
+                <li><strong>監督</strong> <span>佐藤 健一</span></li>
+                <li><strong>設立</strong> <span>1990年</span></li>
+            </ul>
+        </section>
+
+        <section style="margin-top: 40px;">
+            <h2>NEXT MATCH</h2>
+            <p style="text-align: center; font-weight: bold; font-size: 1.2rem;">
+                2024.01.15 (SUN) 14:00 K.O<br>
+                vs Blue Sharks
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2024 RED FALCONS FC Official Site.
+    </footer>
+
 </body>
 </html>
